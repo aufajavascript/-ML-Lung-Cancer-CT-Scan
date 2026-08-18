@@ -2,6 +2,8 @@
 
 🔗 **[Live Demo](https://huggingface.co/spaces/Suizen/Pulmoscan-deploy)** · **[Deployment Repo](https://github.com/m6hhyrz78d-svg/PulmoScan)**
 
+📄 [Research Paper (PDF)](./Paper_JBEKEN_LungCancer.pdf) — submitted to J-BEKEN journal, currently under review.
+
 Comparative evaluation of four deep learning architectures — **VGG-16, EfficientNetV2, ConvNeXt, and Vision Transformer (ViT)** — for classifying lung CT-scan images into four classes (**Adenocarcinoma, Large Cell Carcinoma, Squamous Cell Carcinoma, Normal**), with the best-performing model deployed as a live web app.
 
 ## Problem
