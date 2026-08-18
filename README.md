@@ -42,5 +42,9 @@ Developed and trained on Google Colab (T4 GPU).
 
 Led model development and evaluation, including architecture comparison methodology, and co-authored the accompanying research paper submitted to J-BEKEN.
 
+## Team
+
+This was a group project for the J-BEKEN paper submission. Model training and evaluation (this repo) were done by me; the deployment pipeline (FastAPI + Gradio + CI/CD) was built by a teammate — see the [deployment repo](https://github.com/m6hhyrz78d-svg/PulmoScan) for that part.
+
 ---
 *This work is part of an academic paper currently under submission to the J-BEKEN journal.*
