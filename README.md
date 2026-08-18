@@ -7,6 +7,8 @@ Lung Cancer CT-Scan Classification Comparative evaluation of four deep learning 
 
 Lung cancer is the leading cause of cancer death worldwide, and distinguishing between histological subtypes from CT imaging is difficult even for trained radiologists — the subtypes often look visually similar. This project asks: **which architecture generalizes best on a small (~1,000 image) medical imaging dataset**, and can the winning model be made usable by non-technical end users rather than staying a notebook?
 
+🔗 **[Live Demo](https://huggingface.co/spaces/Suizen/Pulmoscan-deploy)** · **[Deployment Repo](https://github.com/m6hhyrz78d-svg/PulmoScan)**
+
 ## Approach
 
 - Applied **transfer learning** with all four architectures pre-trained on ImageNet, backbone frozen, sharing an identical classification head (GAP → BatchNorm → Dense(256) → Dropout → Dense(128) → Dropout → Softmax)
