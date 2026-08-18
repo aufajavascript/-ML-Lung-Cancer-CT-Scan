@@ -1,13 +1,12 @@
-# ML-Lung-Cancer-CT-Scan
 # Lung Cancer CT-Scan Classification
 
-Lung Cancer CT-Scan Classification Comparative evaluation of four deep learning architectures — VGG-16, EfficientNetV2, ConvNeXt, and Vision Transformer (ViT) — for classifying lung CT-scan images into four classes (Adenocarcinoma, Large Cell Carcinoma, Squamous Cell Carcinoma, Normal), with the best-performing model deployed as a live web app.
+🔗 **[Live Demo](https://huggingface.co/spaces/Suizen/Pulmoscan-deploy)** · **[Deployment Repo](https://github.com/m6hhyrz78d-svg/PulmoScan)**
+
+Comparative evaluation of four deep learning architectures — **VGG-16, EfficientNetV2, ConvNeXt, and Vision Transformer (ViT)** — for classifying lung CT-scan images into four classes (**Adenocarcinoma, Large Cell Carcinoma, Squamous Cell Carcinoma, Normal**), with the best-performing model deployed as a live web app.
 
 ## Problem
 
 Lung cancer is the leading cause of cancer death worldwide, and distinguishing between histological subtypes from CT imaging is difficult even for trained radiologists — the subtypes often look visually similar. This project asks: **which architecture generalizes best on a small (~1,000 image) medical imaging dataset**, and can the winning model be made usable by non-technical end users rather than staying a notebook?
-
-🔗 **[Live Demo](https://huggingface.co/spaces/Suizen/Pulmoscan-deploy)** · **[Deployment Repo](https://github.com/m6hhyrz78d-svg/PulmoScan)**
 
 ## Approach
 
@@ -29,7 +28,15 @@ Lung cancer is the leading cause of cancer death worldwide, and distinguishing b
 
 ## Tech Stack
 
-`TensorFlow` / `Keras` · `VGG-16` · `EfficientNetV2` · `ConvNeXt` · `ViT` · `FastAPI` · `Gradio` · `Hugging Face Spaces` · `GitHub Actions` · Google Colab (T4 GPU)
+`TensorFlow` / `Keras` · `PyTorch` / `Transformers` · `VGG-16` · `EfficientNetV2` · `ConvNeXt` · `ViT` · `OpenCV` · `scikit-learn` · `FastAPI` · `Gradio` · `Hugging Face Spaces` · `GitHub Actions` · Google Colab (T4 GPU)
+
+## Setup
+
+```bash
+pip install -r requirements.txt
+```
+
+Developed and trained on Google Colab (T4 GPU).
 
 ## My Role
 
